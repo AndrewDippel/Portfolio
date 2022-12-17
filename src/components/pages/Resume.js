@@ -1,21 +1,44 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
 
 export default function Resume() {
   return (
-    <div>
-      <h1>Resume</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
+    <Card style={{
+      width: '70%',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center'
+    }}>
+      <Card.Body>
+        <Card.Title>Resume</Card.Title>
+        <Card.Text>
+          <a href="https://drive.google.com/uc?export=download&id=1F5I_3ziMQKBV-BNPHGmnx03Wi9N6H277" download>Download resume
+          </a>
+          <h3>Front-end proficiencies </h3>
+          <ul>
+            <li> HTML </li>
+            <li> CSS </li>
+            <li> Javascript </li>
+            <li> JQuery </li>
+            <li> Responsive Design </li>
+            <li> React </li>
+            <li> Bootstrap </li>
+          </ul>
+          <h3>Back-end proficiencies </h3>
+          <ul>
+            <li> API's </li>
+            <li> Node </li>
+            <li> Express </li>
+            <li> MySQL </li>
+            <li> Sequilize </li>
+            <li> MongoDB </li>
+            <li> Mongoose </li>
+            <li> Rest </li>
+            <li> GraphQL </li>
+          </ul>
+
+        </Card.Text>
+      </Card.Body>
+    </Card>
   );
 }
