@@ -2,7 +2,13 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
+    <div style={{
+      display: 'flex',
+      width: '70%',
+      margin: '30px',
+      flex: "wrap",
+      justifyContent: "center"
+    }}>
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
