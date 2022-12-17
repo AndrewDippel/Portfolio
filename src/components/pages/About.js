@@ -9,6 +9,7 @@ export default function About() {
       alignItems: 'center',
       justifyContent: 'center'
     }}>
+      <Card.Img variant="top" src='public/Assets/Profile picture.jpeg' />
       <Card.Body>
         <Card.Title>About Me</Card.Title>
         <Card.Text>

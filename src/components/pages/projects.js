@@ -29,7 +29,22 @@ const projects = [
     desc: 'one of my projects',
     link: 'https://peaceful-depths-70788.herokuapp.com/',
     githublink: 'https://github.com/AndrewDippel/Note-Taker.git'
-  }]
+  },
+  {
+    title: 'Work Day Schedualer',
+    img: 'public/Assets/noteTaker.png',
+    desc: 'one of my projects',
+    link: 'https://andrewdippel.github.io/work-day-scheduler/',
+    githublink: 'https://github.com/AndrewDippel/work-day-scheduler.git'
+  },
+  {
+    title: 'Password Generator',
+    img: 'public/Assets/noteTaker.png',
+    desc: 'one of my projects',
+    link: 'https://andrewdippel.github.io/Password-generator/',
+    githublink: 'https://github.com/AndrewDippel/Password-generator.git'
+  }
+]
 
 export default function Blog() {
   return (
