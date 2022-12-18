@@ -4,12 +4,13 @@ import Card from 'react-bootstrap/Card';
 export default function About() {
   return (
     <Card style={{
-      width: '70%',
+      width: '50%',
+      marginLeft: '25%',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center'
     }}>
-      <Card.Img variant="top" src='public/Assets/Profile picture.jpeg' />
+      <Card.Img variant="top" src="Assets/Profile_picture.jpeg" style={{ width: '400px' }} />
       <Card.Body>
         <Card.Title>About Me</Card.Title>
         <Card.Text>

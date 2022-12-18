@@ -4,7 +4,8 @@ import Card from 'react-bootstrap/Card';
 export default function Resume() {
   return (
     <Card style={{
-      width: '70%',
+      width: '50%',
+      marginLeft: '25%',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center'
