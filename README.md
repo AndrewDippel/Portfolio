@@ -71,7 +71,7 @@ finall on my resume tab you will see two list of my front end and back end profi
 ## Links
 
 * github: https://github.com/AndrewDippel/Portfolio.git
-* Deployment:  
+* Deployment:  https://andrewdippel.github.io/Portfolio/
 
 ## Credits
 
