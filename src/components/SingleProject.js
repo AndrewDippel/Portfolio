@@ -3,7 +3,11 @@ import Card from 'react-bootstrap/Card';
 
 function SingleProject(props) {
     return (
-        <Card style={{ width: '40%' }}>
+        <Card style={{
+            width: '40%',
+            backgroundColor: '#727271',
+            color: 'white'
+        }}>
             <Card.Img variant="top" src={props.img} />
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>

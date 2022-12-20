@@ -20,7 +20,9 @@ export default function Contact() {
       width: '50%',
       display: 'flex',
       alignItems: 'center',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      backgroundColor: '#727271',
+      color: 'white'
     }}>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicName">

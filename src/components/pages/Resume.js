@@ -8,7 +8,9 @@ export default function Resume() {
       marginLeft: '25%',
       display: 'flex',
       alignItems: 'center',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      backgroundColor: '#727271',
+      color: 'white'
     }}>
       <Card.Body>
         <Card.Title>Resume</Card.Title>

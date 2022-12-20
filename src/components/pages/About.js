@@ -8,7 +8,9 @@ export default function About() {
       marginLeft: '25%',
       display: 'flex',
       alignItems: 'center',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      backgroundColor: '#727271',
+      color: 'white'
     }}>
       <Card.Img variant="top" src="Assets/Profile_picture.jpeg" style={{ width: '400px' }} />
       <Card.Body>
