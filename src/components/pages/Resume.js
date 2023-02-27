@@ -15,7 +15,7 @@ export default function Resume() {
       <Card.Body>
         <Card.Title>Resume</Card.Title>
         <Card.Text>
-          <a style={{ color: '#ef6817' }} href="https://drive.google.com/uc?export=download&id=1F5I_3ziMQKBV-BNPHGmnx03Wi9N6H277" download>Download resume
+          <a style={{ color: '#ef6817' }} href="https://drive.google.com/uc?export=download&id=1-_F9dYfaT5JzrjvAMTROSmfGsjpmmIlv" download>Download resume
           </a>
           <h3>Front-end proficiencies </h3>
           <ul>
